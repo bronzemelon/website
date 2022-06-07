@@ -1,0 +1,60 @@
+ p
+  {
+    font-size: large;
+    font-family: sans-serif;
+  }
+.youtube 
+  {
+    background-color: red;
+    color: white;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bold;
+    height: 45px;
+    width: 100px;
+    cursor: pointer;
+  }
+.discord
+  {
+    background-color: purple;
+    color: white;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bold;
+    height: 45px;
+    width: 100px;
+    cursor: pointer;
+  }
+.twitter
+  {
+    background-color: blue;
+    color: white;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bold;
+    height: 45px;
+    width: 100px;
+    cursor: pointer;
+  }
+.instagram 
+  {
+    background-color: rgb(165, 0, 41);
+    color: white;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bold;
+    height: 45px;
+    width: 100px;
+    cursor: pointer;
+  }
+.spotify
+  {
+    background-color: rgb(53, 182, 92);
+    color: white;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bold;
+    height: 45px;
+    width: 100px;
+    cursor: pointer;
+  }
