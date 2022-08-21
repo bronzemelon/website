@@ -1,8 +1,13 @@
- .intro
+body
+{
+  display: inline-block;
+}
+.intro
   {
+    display: inline-block;
     font-size: large;
     font-family: Arial;
-    margin-bottom: 0px;
+    padding-bottom: 10px;
   }
 :root
 {
@@ -25,6 +30,12 @@
   .youtube:hover
   {
     background-color: rgb(216, 0, 47);
+  }
+  .embed
+  {
+    position: absolute;
+    right: 200px;
+    top: 100px;
   }
 .discord
   {
