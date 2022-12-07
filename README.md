@@ -1,6 +1,3 @@
-# website
-website
-
-hello!
+#Hello!
 
 this is a website.
