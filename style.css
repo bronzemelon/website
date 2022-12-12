@@ -1,25 +1,31 @@
 .intro
 {
     text-align: center;
+    padding-top: 4%;
 }
 .intro-text
 {
     text-align: center;
     padding-top: 5%;
 }
-#certificate-heading
+#certificate-heading, #certificate-text
 {
     text-align: center;
 }
-#certificate-text
-{
-    text-align: center;
-}
-#music
+#music, #projects, .block-laboratories
 {
     padding-left: 3%;
+    padding-top: 1%;
 }
-#projects
+#projects-minecraft
 {
-    padding-left: 3%;
+    background-color: #55E6C1;
+}
+.projects-games
+{
+    background-color: #FD7272;
+}
+.projects-programs
+{
+    background-color: #4b89a1;
 }

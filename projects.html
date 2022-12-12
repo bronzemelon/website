@@ -12,26 +12,106 @@
     crossorigin="anonymous">
     </head>
     <body style="background-color: #ffbbc5">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar" style="background-color: #ffb4bf">
             <div class="container-fluid">
                 <a class="navbar-brand" href="./index.html">Home</a>
             </div>
         </nav>
-        <div id="projects" class="d-grid gap-3 col-3">
+        <div id="projects" class="d-grid gap-4 col-11">
             <h1>Projects</h1>
-            <h3>Minecraft Maps</h3>
-        <a href="./Projects/block laboratories.html" class="btn" style="background-color: #7bd191" role="button">Block Laboratories</a>
-        <a href="./Projects/block laboratories 2.html" class="btn" style="background-color: #7bd191" role="button">Block Laboratories 2</a>
-        <h3>Games</h3>
-        <a href="https://bronzemelon.itch.io/beans-attack" class="btn" style="background-color: #e28795" role="button">Beans Attack</a>
-        <a href="https://bronzemelon.itch.io/cube-survival" class="btn" style="background-color: #e28795" role="button">Cube Survival</a>
-        <a href="https://bronzemelon.itch.io/jumping-cube-platformer-game" class="btn" style="background-color: #e28795" role="button">Jumping Cube Platformer Game</a>
-        <a href="https://bronzemelon.itch.io/sonic-demo-project-v2" class="btn" style="background-color: #e28795" role="button">Sonic Demo Project V2</a>
-        <a href="https://bronzemelon.itch.io/sonic-demo-project-v1" class="btn" style="background-color: #e28795" role="button">Sonic Demo Project V1</a>
-        <h3>Programs</h3>
-        <a href="./Projects/Download Remainder.zip" class="btn" style="background-color: #7bd1cd" role="button">Download Remainder</a>
-        <a href="./Projects/Rock Paper Scissors.zip" class="btn" style="background-color: #7bd1cd" role="button">Rock Paper Scissors</a>
-        <a href="./Projects/Temperature Converter.zip" class="btn" style="background-color: #7bd1cd" role="button">Temperature Converter</a>
+        <table class="table table-hover table-bordered border-dark">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>Year</th>
+                    <th>Download</th>
+                </tr>
+            </thead>
+            <tbody class="table-group-divider">
+                <tr id="projects-minecraft">
+                    <td>Block Laboratories</td>
+                    <td>Minecraft map</td>
+                    <td>2020</td>
+                    <td>
+                        <a href="./Projects/block laboratories.html"
+                        class="btn btn-outline-secondary btn-sm" style="color:black" role="button">Download</a>
+                    </td>
+                </tr>
+                <tr class="projects-games">
+                    <td>Beans Attack</td>
+                    <td>Game</td>
+                    <td>2022</td>
+                    <td>
+                        <a href="https://bronzemelon.itch.io/beans-attack"
+                        class="btn btn-outline-danger btn-sm" style="color:black" role="button">Download</a>
+                    </td>
+                </tr>
+                <tr class="projects-games">
+                    <td>Cube Survival</td>
+                    <td>Game</td>
+                    <td>2022</td>
+                    <td>
+                        <a href="https://bronzemelon.itch.io/cube-survival"
+                        class="btn btn-outline-danger btn-sm" style="color:black" role="button">Download</a>
+                    </td>
+                </tr>
+                <tr class="projects-games">
+                    <td>Jumping Cube Platformer Game</td>
+                    <td>Game</td>
+                    <td>2021</td>
+                    <td>
+                        <a href="https://bronzemelon.itch.io/jumping-cube-platformer-game"
+                        class="btn btn-outline-danger btn-sm" style="color:black" role="button">Download</a>
+                    </td>
+                </tr>
+                <tr class="projects-games">
+                    <td>Sonic Demo Project V1</td>
+                    <td>Game</td>
+                    <td>2019</td>
+                    <td>
+                        <a href="https://bronzemelon.itch.io/sonic-demo-project-v1"
+                        class="btn btn-outline-danger btn-sm" style="color:black" role="button">Download</a>
+                    </td>
+                </tr>
+                <tr class="projects-games">
+                    <td>Sonic Demo Project V2</td>
+                    <td>Game</td>
+                    <td>2019</td>
+                    <td>
+                        <a href="https://bronzemelon.itch.io/sonic-demo-project-v2"
+                        class="btn btn-outline-danger btn-sm" style="color:black" role="button">Download</a>
+                    </td>
+                </tr>
+                <tr class="projects-programs">
+                    <td>Download Remainder</td>
+                    <td>Software</td>
+                    <td>2022</td>
+                    <td>
+                        <a href="./Projects/Download Remainder.zip"
+                        class="btn btn-outline-info btn-sm" style="color:black" role="button">Download</a>
+                    </td>
+                </tr>
+                <tr class="projects-programs">
+                    <td>Rock Paper Scissors</td>
+                    <td>Software</td>
+                    <td>2022</td>
+                    <td>
+                        <a href="./Projects/Rock Paper Scissors.zip"
+                        class="btn btn-outline-info btn-sm" style="color:black" role="button">Download</a>
+                    </td>
+                </tr>
+                <tr class="projects-programs">
+                    <td>Temperature Converter</td>
+                    <td>Software</td>
+                    <td>2022</td>
+                    <td>
+                        <a href="./Projects/Temperature Converter.zip"
+                        class="btn btn-outline-info btn-sm" style="color:black" role="button">Download</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
         </div>
     </body>
 </html>
