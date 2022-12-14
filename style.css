@@ -1,3 +1,7 @@
+body
+{
+    padding-bottom: 1%;
+}
 .intro
 {
     text-align: center;
@@ -28,4 +32,9 @@
 .projects-programs
 {
     background-color: #4b89a1;
+}
+.col
+{
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
